@@ -378,3 +378,25 @@ input,textarea,select{
 .owl-item{
 	margin-top:20px;
 }
+@media(min-width:468px){
+	.abt-doc{
+		padding-right:15rem !important;
+	}
+	.abt-lab{
+		padding-right:10rem !important;
+	}
+	.abt-award{
+		padding-right:11rem !important;
+	}
+}
+@media(min-width:576px){
+	.abt-doc{
+		padding-right:1.5rem !important;
+	}
+	.abt-lab{
+		padding-right:1.5rem !important;
+	}
+	.abt-award{
+		padding-right:1.5rem !important;
+	}
+}
