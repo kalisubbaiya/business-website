@@ -391,6 +391,9 @@ input,textarea,select{
 	.abt-award{
 		padding-right:11rem !important;
 	}
+	.appointment-btn{
+		display: none;
+	}
 }
 @media(min-width:576px){
 	.abt-doc{
@@ -401,5 +404,10 @@ input,textarea,select{
 	}
 	.abt-award{
 		padding-right:1.5rem !important;
+	}
+}
+@media(min-width:996px){
+	.appointment-btn{
+		display: block;
 	}
 }
