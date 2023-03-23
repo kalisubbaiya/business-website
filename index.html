@@ -31,27 +31,27 @@
 				<a class="navbar-brand me-auto" href="#"><img src="assets/img/logo.png" alt="medicio" class="w-50"></a>
 				<nav class="navbar navbar-expand-lg navbar-light py-3 order-last order-lg-0">
 					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" style="margin:0 0 0 12px;">
-						<span class="navbar-toggler-icon"></span>
+						<span class="navbar-toggler-icon" onclick="handleShow()"></span>
 					</button>
 					<div class="collapse navbar-collapse" id="navbarNavDropdown">
 						<ul class="navbar-nav">
 							<li class="nav-item">
-								<a class="nav-link active" aria-current="page" href="#home">HOME</a>
+								<a class="nav-link active" aria-current="page" href="#home" onclick="handleHide()">HOME</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#about">ABOUT</a>
+								<a class="nav-link" href="#about" onclick="handleHide()">ABOUT</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#services">SERVICES</a>
+								<a class="nav-link" href="#services" onclick="handleHide()">SERVICES</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#departments">DEPARTMENTS</a>
+								<a class="nav-link" href="#departments" onclick="handleHide()">DEPARTMENTS</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#doctors">DOCTORS</a>
+								<a class="nav-link" href="#doctors" onclick="handleHide()">DOCTORS</a>
 							</li>
 							<li class="nav-item dropdown">
-								<a class="nav-link dropdown-toggle" href="#home" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+								<a class="nav-link dropdown-toggle" href="#home" onclick="handleHide()" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 								DROP DOWN
 								</a>
 								<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -73,7 +73,7 @@
 								</ul>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#contact">CONTACT</a>
+								<a class="nav-link" href="#contact" onclick="handleHide()">CONTACT</a>
 							</li>
 						</ul>
 					</div>
@@ -185,7 +185,7 @@
 					Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
 				</div>
 				<div class="row">
-					<div class="col-12 col-sm-12 col-md-12 col-lg-6 d-flex align-items-stretch">
+					<div class="col-12 col-sm-12 col-md-12 col-lg-6 d-flex align-items-stretch mb-4">
 						<img src="assets/img/about.jpg" class="w-100" alt="about">
 					</div>
 					<div class="col-12 col-sm-12 col-md-12 col-lg-6 ">
@@ -916,7 +916,7 @@
 							<a href=""> <i class="bx bxl-linkedin"></i> </a>
 						</div>
 					</div>
-					<div class="col-12 col-sm-6 col-md-6 col-lg-2">
+					<div class="col-12 col-sm-6 col-md-6 col-lg-2 mt-2">
 						<h5>Useful Links</h5>
 						<ul class="p-0">
 							<li> <i class="bx bx-chevron-right"></i>Home </li>
@@ -926,7 +926,7 @@
 							<li> <i class="bx bx-chevron-right"></i>Privacy policy </li>
 						</ul>
 					</div>
-					<div class="col-12 col-sm-6 col-md-6 col-lg-3">
+					<div class="col-12 col-sm-6 col-md-6 col-lg-3 mt-2">
 						<h5>Our services</h5>
 						<ul class="p-0">
 							<li> <i class="bx bx-chevron-right"></i>Web Design </li>
@@ -936,7 +936,7 @@
 							<li> <i class="bx bx-chevron-right"></i>Graphic Design </li>
 						</ul>
 					</div>
-					<div class="col-12 col-sm-6 col-md-6 col-lg-4">
+					<div class="col-12 col-sm-6 col-md-6 col-lg-4 mt-2">
 						<h5>Our Newsletter</h5>
 						<p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
 						<form action method="post">

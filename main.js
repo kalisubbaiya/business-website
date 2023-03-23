@@ -34,6 +34,14 @@ $('.gallery-carousel').owlCarousel({
 	}
 });
 
-$('.navbar-nav>li>a').on('click', function(){
-    $('.navbar-collapse').collapse('hide');
-});
+function handleHide(){
+	document.querySelector(".navbar-collapse").style.display = "none";
+	document.querySelector(".navbar-toggler").style.display = "block";
+	document.querySelector(".appointment-btn").style.display = "block";
+}
+
+function handleShow(){
+	document.querySelector(".navbar-collapse").style.display = "block";
+	document.querySelector(".navbar-toggler").style.display = "none";
+	document.querySelector(".appointment-btn").style.display = "none";
+}
